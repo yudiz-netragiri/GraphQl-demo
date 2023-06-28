@@ -16,7 +16,6 @@ function CardDetail() {
     }
   }, [query?.slug]);
   console.log("error", error);
-  
 
   return (
     <div className="text-center container my-3">
